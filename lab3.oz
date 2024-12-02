@@ -48,7 +48,7 @@ fun {Drop L N}
    [] H|T then if N > 0 then
 		  {Drop T N - 1}
 	       else
-		  H| {Drop T N}
+		  H| T
 	       end
    end
 end

@@ -121,6 +121,7 @@ end
 %{Browse {GetAfter 30}}
 %{Browse {GetAfter 99}}
 
+% Exercise 4 BST
 
 declare
 fun {Insert T N}
@@ -194,4 +195,4 @@ declare
 X4 = bst(node: 20 left: bst(node: 10 left: nil right: nil) right: bst(node: 15 left: 23 right: bst(node: 30 left: nil right: bst(node: 40 left: nil right: nil))))
 X5 = bst(node: 20 left: bst(node: 10 left: nil right: nil) right: bst(node: 30 left: nil right: nil))
 X6 = bst(node: 20 left: bst(node: 10 left: nil right: nil) right: bst(node: 25 left: bst(node:23 left: nil right: nil) right: bst(node: 30 left: nil right: bst(node: 21 left: nil right: nil))))
-{Browse {IsSorted X5}}
+%{Browse {IsSorted X5}}

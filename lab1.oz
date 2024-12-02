@@ -2,7 +2,7 @@
 
 % Exercise 1 (Absolute Value)
 % Write a function Abs that computes the absolute value of a number.
-% This should work for both integers and real numbers.
+% This works for both integers and real numbers.
 
 declare
 fun {Minus X}
